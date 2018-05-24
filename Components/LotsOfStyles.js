@@ -1,4 +1,4 @@
-import React, { Componet } from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 
 export default class LotsOfStyles extends Component {
@@ -14,7 +14,7 @@ export default class LotsOfStyles extends Component {
   }
 }
 
-const styles = styleSheet.create({
+const styles = StyleSheet.create({
   bigblue: {
     color: 'blue',
     fontWeight: 'bold',
