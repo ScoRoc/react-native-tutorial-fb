@@ -19,8 +19,11 @@ export default class HelloWorldApp extends Component {
         <LotsOfGreetings />
         <BlinkWrap />
         <LotsOfStyles />
+        <Text>Here's Fixed Dimensions:</Text>
         <FixedDimension />
+        <Text>Here's Flex Dimensions:</Text>
         <FlexDimension />
+        <Text>Here's layout with FlexBox:</Text>
       </ScrollView>
     );
   }
