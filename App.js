@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Image, Text } from 'react-native';
+import { ScrollView, View, Image, Text } from 'react-native';
 import Bananas from './Components/Bananas';
 import LotsOfGreetings from './Components/LotsOfGreetings';
 import BlinkWrap from './Components/BlinkWrap';
@@ -9,7 +9,7 @@ import FixedDimension from './Components/FixedDimension';
 export default class HelloWorldApp extends Component {
   render() {
     return (
-      <View>
+      <ScrollView>
         <View style={ {marginTop: 50, marginBottom: 20} }>
           <Text style={ {marginBottom: 2} }>Hello World!</Text>
           <Text>This is the main App and Components are below.</Text>
@@ -19,7 +19,7 @@ export default class HelloWorldApp extends Component {
         <BlinkWrap />
         <LotsOfStyles />
         <FixedDimension />
-      </View>
+      </ScrollView>
     );
   }
 }

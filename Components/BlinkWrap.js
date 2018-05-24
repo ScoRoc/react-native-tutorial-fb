@@ -5,7 +5,7 @@ import Blink from './Blink';
 export default class BlinkWrap extends Component {
   render() {
     return (
-      <View>
+      <View style={ {height: 69} }>
         <Blink text='Lightsaber of doom!' />
         <Blink text='OMG this is killing my eyes' />
         <Blink text='Worst feature ever...blinking....' />
