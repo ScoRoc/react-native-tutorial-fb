@@ -10,6 +10,17 @@ export default class LotsOfStyles extends Component {
         <Text style={[styles.bigblue, styles.red]}>bigblue, then red</Text>
         <Text style={[styles.red, styles.bigblue]}>red, then bigblue</Text>
       </View>
-    )
+    );
   }
 }
+
+const styles = styleSheet.create({
+  bigblue: {
+    color: 'blue',
+    fontWeight: 'bold',
+    fontSize: 30
+  },
+  red: {
+    color: 'red'
+  }
+});
