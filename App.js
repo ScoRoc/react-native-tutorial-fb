@@ -5,6 +5,7 @@ import LotsOfGreetings from './Components/LotsOfGreetings';
 import BlinkWrap from './Components/BlinkWrap';
 import LotsOfStyles from './Components/LotsOfStyles';
 import FixedDimension from './Components/FixedDimension';
+import FlexDimension from './Components/FlexDimension';
 
 export default class HelloWorldApp extends Component {
   render() {
@@ -19,6 +20,7 @@ export default class HelloWorldApp extends Component {
         <BlinkWrap />
         <LotsOfStyles />
         <FixedDimension />
+        <FlexDimension />
       </ScrollView>
     );
   }
