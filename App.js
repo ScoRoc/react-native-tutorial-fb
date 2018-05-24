@@ -4,6 +4,7 @@ import Bananas from './Components/Bananas';
 import LotsOfGreetings from './Components/LotsOfGreetings';
 import BlinkWrap from './Components/BlinkWrap';
 import LotsOfStyles from './Components/LotsOfStyles';
+import FixedDimension from './Components/FixedDimension';
 
 export default class HelloWorldApp extends Component {
   render() {
@@ -17,6 +18,7 @@ export default class HelloWorldApp extends Component {
         <LotsOfGreetings />
         <BlinkWrap />
         <LotsOfStyles />
+        <FixedDimension />
       </View>
     );
   }
