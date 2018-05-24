@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { View, Image, Text } from 'react-native';
 import Bananas from './Components/Bananas';
+import LotsOfGreetings from './Components/LotsOfGreetings';
+import BlinkWrap from './Components/BlinkWrap';
 
 export default class HelloWorldApp extends Component {
   render() {
@@ -11,6 +13,8 @@ export default class HelloWorldApp extends Component {
           <Text>This is the main App and Components are below.</Text>
         </View>
         <Bananas />
+        <LotsOfGreetings />
+        <BlinkWrap />
       </View>
     );
   }
