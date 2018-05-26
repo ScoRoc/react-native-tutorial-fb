@@ -6,6 +6,9 @@ import BlinkWrap from './Components/BlinkWrap';
 import LotsOfStyles from './Components/LotsOfStyles';
 import FixedDimension from './Components/FixedDimension';
 import FlexDimension from './Components/FlexDimension';
+import FlexDirection from './Components/FlexBox/FlexDirection';
+import JustifyContent from './Components/FlexBox/JustifyContent';
+import AlignItems from './Components/FlexBox/AlignItems';
 
 export default class HelloWorldApp extends Component {
   render() {
@@ -24,6 +27,10 @@ export default class HelloWorldApp extends Component {
         <Text>Here's Flex Dimensions:</Text>
         <FlexDimension />
         <Text>Here's layout with FlexBox:</Text>
+        <FlexDirection />
+        <JustifyContent />
+        <AlignItems />
+        <Text>Handling text input:</Text>
       </ScrollView>
     );
   }
