@@ -18,6 +18,6 @@ export default class TextInputPizzaTranslator extends Component {
           {this.state.text.split(' ').map( word => word && '🍕' ).join(' ')}
         </Text>
       </View>
-    )
+    );
   }
 }
