@@ -33,6 +33,7 @@ export default class HelloWorldApp extends Component {
         <AlignItems />
         <Text>Handling text input:</Text>
         <TextInputPizzaTranslator />
+        <Text>Handling touches:</Text>
       </ScrollView>
     );
   }
