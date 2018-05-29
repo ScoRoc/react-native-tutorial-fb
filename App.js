@@ -10,6 +10,7 @@ import FlexDirection from './Components/FlexBox/FlexDirection';
 import JustifyContent from './Components/FlexBox/JustifyContent';
 import AlignItems from './Components/FlexBox/AlignItems';
 import TextInputPizzaTranslator from './Components/TextInputPizzaTranslator';
+import ButtonBasics from './Components/ButtonBasics';
 
 export default class HelloWorldApp extends Component {
   render() {
@@ -34,6 +35,7 @@ export default class HelloWorldApp extends Component {
         <Text>Handling text input:</Text>
         <TextInputPizzaTranslator />
         <Text>Handling touches:</Text>
+        <ButtonBasics />
       </ScrollView>
     );
   }
