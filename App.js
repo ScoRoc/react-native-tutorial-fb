@@ -44,6 +44,7 @@ export default class HelloWorldApp extends Component {
         <Text>Working with Scroll View</Text>
         <ScrollViewExample />
         <Text>Flat List Basics below:</Text>
+        <FlatListBasics />
       </ScrollView>
     );
   }
