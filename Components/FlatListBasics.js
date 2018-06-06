@@ -7,16 +7,16 @@ export default class FlatListBasics extends Component {
       <View style={styles.container}>
         <FlatList
           data={[
-            {key: 'Mark'},
+            {key: 'Devin'},
+            {key: 'Jackson'},
+            {key: 'James'},
+            {key: 'Joel'},
             {key: 'John'},
-            {key: 'Susie'},
-            {key: 'Alice'},
-            {key: 'Harry'},
-            {key: 'Marry'},
-            {key: 'David'},
-            {key: 'Julie'}
+            {key: 'Jillian'},
+            {key: 'Jimmy'},
+            {key: 'Julie'},
           ]}
-          renderItem={item => <Text style={styles.item}>{item.key}</Text>}
+          renderItem={({item}) => <Text style={styles.item}>{item.key}</Text>}
         />
       </View>
     );

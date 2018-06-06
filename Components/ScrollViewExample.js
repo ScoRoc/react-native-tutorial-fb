@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { ScrollView, Image, Text } from 'react-native';
+import { ScrollView, StyleSheet, Image, Text } from 'react-native';
 
 export default class ScrollViewExample extends Component {
   render() {
     return (
-      <ScrollView pagingEnabled={true} maximumZoomScale={15} minimumZoomScale={1}>
+      <ScrollView style={styles.scroll} pagingEnabled={true} maximumZoomScale={15} minimumZoomScale={1}>
          <Text style={{fontSize:96}}>Scroll me plz</Text>
          <Text style={{fontSize:96}}>If you like</Text>
          <Text style={{fontSize:96}}>Scrolling down</Text>
@@ -15,3 +15,13 @@ export default class ScrollViewExample extends Component {
     );
   }
 }
+
+const styles = StyleSheet.create({
+  scroll: {
+    height: 300,
+    borderWidth: 1,
+    borderColor: 'black',
+    marginLeft: 5,
+    marginRight: 5
+  }
+})

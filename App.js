@@ -14,7 +14,7 @@ import ButtonBasics from './Components/ButtonBasics';
 import Touchables from './Components/Touchables';
 import ScrollViewExample from './Components/ScrollViewExample';
 import FlatListBasics from './Components/FlatListBasics';
-// import ScrollViewExample from './Components/ScrollViewExample';
+import SectionListBasics from './Components/SectionListBasics';
 
 export default class HelloWorldApp extends Component {
   render() {
@@ -45,6 +45,8 @@ export default class HelloWorldApp extends Component {
         <ScrollViewExample />
         <Text>Flat List Basics below:</Text>
         <FlatListBasics />
+        <Text>Section List Basics below:</Text>
+        <SectionListBasics />
       </ScrollView>
     );
   }
